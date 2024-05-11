@@ -19,12 +19,12 @@ export default function Testimonial() {
           <Swiper
             modules={[Navigation]}
             navigation={{
-              prevEl: navigationPrevRef.current,
-              nextEl: navigationNextRef.current,
+              prevEl: navigationPrevRef.current;
+             
             }}
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
-              swiper.params.navigation.nextEl = navigationNextRef.current;
+             
             }}
             className="relative"
           >
