@@ -29,9 +29,7 @@ export default function Testimonial() {
             className="relative"
           >
 
-            <SwiperSlide>
-              <TestimonialItem/>
-            </SwiperSlide>
+            
             <SwiperSlide>
               <TestimonialItem/>
             </SwiperSlide>
